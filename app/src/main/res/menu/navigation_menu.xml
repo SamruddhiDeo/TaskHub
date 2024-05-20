@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group
+        android:id="@+id/group2"
+        android:checkableBehavior="none">
+
+        <item
+            android:id="@+id/menuHome"
+            android:icon="@drawable/baseline_task_24"
+            android:title="All Tasks" />
+
+        <item
+            android:id="@+id/menuCategories"
+            android:icon="@drawable/baseline_category_24"
+            android:title="Categories">
+
+            <menu>
+
+
+            </menu>
+
+        </item>
+
+        <item
+            android:id="@+id/menuAddCategory"
+            android:icon="@drawable/baseline_add_24"
+            android:title="Add Category" />
+
+    </group>
+
+</menu>

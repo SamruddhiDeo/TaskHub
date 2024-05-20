@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawerHeaderLayout"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_190sdp"
+    android:background="@color/appMediumColor"
+    android:gravity="bottom"
+    android:padding="@dimen/_25ssp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="To Do List"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_23ssp"
+        android:textStyle="bold" />
+
+</LinearLayout>
